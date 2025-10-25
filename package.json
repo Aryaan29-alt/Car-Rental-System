@@ -1,0 +1,28 @@
+{
+  "name": "car-rental-system",
+  "version": "1.0.0",
+  "description": "A DBMS Car Rental System Project",
+  "main": "index.js",
+  "scripts": {
+   "start": "node server.js",
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devar19/car-rental-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devar19/car-rental-system/issues"
+  },
+  "homepage": "https://github.com/Devar19/car-rental-system#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.2"
+  }
+}
